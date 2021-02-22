@@ -1,0 +1,167 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+      <div class="portfolio mt-8 pt-1 mb-8 pb-8" id="portfolio">
+        <div class="container" style="text-align: center; box-shadow: 0 7px 8px 0 rgba(0,0,0,0.8), 0 10px 10px 0 rgba(0,0,0,0.8);">
+          <div class="section-heading text-center mt-5 mr-5">
+            <h3>Here are some of my projects</3>
+          </div>
+          <div class="portfolio-item">
+            <div class="container bg-transparent">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="portfolio-img content">
+                  <!--card-->
+                      <div class="view overlay zoom">
+                        <div class="card">
+                          <div class="view overlay">
+                            <img src="{% static 'images/Awwards.png'%}" class="card-img-top img-thumbnail" width="100%">
+                          </div>
+                          <div class="">
+                          <div class="view overlay zoom">
+                            <h6 class="card-title text-dark text-center text-uppercase mt-2">Awwards-App</h6>
+                            <p class="card-text text-dark ml-3"><small>Awwards is a project made to enable users to register and post their projects. The users can also rate other existing projects on the website based on design, usability and content.</small></p>
+                            <a href="https://my-awwards-app.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                            <a href="https://github.com/Preston-Too/Awwards-App.git" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+
+                          </div>
+                        </div>
+                        </div>
+
+                      </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="portfolio-img content">
+                    <!-- Card -->
+                      <div class="view overlay zoom">
+                        <div class="card">
+                          <div class="view overlay">
+                            <img src="{% static 'images/instagram.png'%}" class="card-img-top img-thumbnail" width="100%">
+                          </div>
+                          <!-- Card content -->
+                          <div class="">
+                          <!-- Title -->
+                            <h6 class="card-title text-dark text-center text-uppercase mt-2">Instagram Clone</h6>
+                          <!-- Text -->
+                            <p class="card-text text-dark ml-3"><small>This is an application that allows users to sign up, upload pictures,view other user's pictures,like them, comment on them and also follow the other users.</small></p>
+                          <!-- Button -->
+                            <a href="https://flexgram.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                            <a href="https://github.com/Preston-Too/Instagram-Clone.git" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="portfolio-img content">
+                    <!-- Card -->
+                      <div class="view overlay zoom">
+                        <div class="card">
+                          <div class="view overlay">
+                            <img src="{% static 'images/NewsApp.png'%}" class="card-img-top img-thumbnail" width="100%">
+                          </div>
+                          <!-- Card content -->
+                          <div class="">
+                          <!-- Title -->
+                            <h6 class="card-title text-dark text-center text-uppercase mt-2">NewsApp</h6>
+                          <!-- Text -->
+                            <p class="card-text text-dark ml-3"><small>NewsApp is an application that is developed using Flask and it uses News API to display different news sources. It also enables the user to get articles from a news source.</small></p>
+                          <!-- Button -->
+                            <a href="https://press-news.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                            <a href="https://github.com/Preston-Too/NewsApp.git" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 mt-3">
+                  <div class="portfolio-img content">
+                    <!-- Card -->
+                      <div class="view overlay zoom">
+                        <div class="card pb-2">
+                          <div class="view overlay">
+                            <img src="{% static 'images/Akan-Naming.png'%}" class="card-img-top img-thumbnail" width="100%">
+                          </div>
+                          <!-- Card content -->
+                          <div class="view overlay zoom">
+                          <!-- Title -->
+                            <h6 class="card-title text-dark text-center text-uppercase mt-2">Akan-Naming</h6>
+                          <!-- Text -->
+                            <p class="card-text text-dark ml-3"><small>This application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</small></p>
+                          <!-- Button -->
+                            <a href="https://preston-too.github.io/Akan-Names/" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                            <a href="https://github.com/Preston-Too/Akan-Names.git" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5">Details</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                  <div class="portfolio-img content">
+                    <!-- Card -->
+                      <div class="view overlay zoom">
+                        <div class="card pb-2">
+                          <div class="view overlay">
+                            <img src="{% static 'images/Pizzario.png'%}" class="card-img-top img-thumbnail" width="100%">
+                          </div>
+                          <!-- Card content -->
+                          <div class="">
+                          <!-- Title -->
+                            <h6 class="card-title text-dark text-center text-uppercase mt-2">Pizzario-Inn</h6>
+                          <!-- Text -->
+                            <p class="card-text text-dark ml-3"><small>This is a web Application that seeks to enable the users to place their prefered pizza orders and get them delivered to their location within a short time.</small></p>
+                          <!-- Button -->
+                            <a href="https://preston-too.github.io/Pizzario-Inn/" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                            <a href="https://github.com/Preston-Too/Pizzario-Inn.git" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5">Details</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                  <div class="portfolio-img content">
+                    <!-- Card -->
+                      <div class="view overlay zoom">
+                        <div class="card pb-2">
+                          <div class="view overlay">
+                            <img src="{% static 'images/Gallery.png'%}" class="card-img-top img-thumbnail" width="100%">
+                          </div>
+                          <!-- Card content -->
+                          <div class="">
+                          <!-- Title -->
+                            <h6 class="card-title text-dark text-center text-uppercase mt-2">My Gallery</h6>
+                          <!-- Text -->
+                            <p class="card-text text-dark ml-3"><small>My Gallery is an application to display my photos. Other people can also see the photos when they visit the site, and the user can click on the image to view the details of the image.</small></p>
+                          <!-- Button -->
+                            <a href="https://my-gallery-flex.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                            <a href="https://github.com/Preston-Too/My-Gallery.git" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5">Details</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+{% endblock %}
