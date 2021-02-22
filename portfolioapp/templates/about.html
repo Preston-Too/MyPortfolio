@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="about">
+    <div class="about mt-5" id="about">
+        <div class="section-heading text-center">
+          <h1>About Me</h1>
+		  <hr>
+        </div>
+        <div class="about-details">
+          <div class="container-fluid">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 border p-3">
+                        <p>Innovative optimized solution seeker. Excited to be at the top phase of my career as a web developer.
+                            Well-versed in both frontend and backend web development. I building everything from small business sites to portfolio themes and rich interactive web applications.
+                        <p>Developing softwares gives me a chance to make things that make a difference.
+                        </p>
+                        <p>I enjoy the collaborative nature of working on a team building a product. 
+                            Ability to work in a fast-paced environment and to deliver results in time regardless of the pressure from work,
+                            with excellent interpersonal and communication skills.</p>
+                        <p>My focus is to secure a position where I can consistently and effectively utilize my skills and expertise as well as broaden my scope that will contribute to the success and growth of your organization.
+                        </p>
+                    
+                        <br>
+                        <br>
+
+                      <div class="cv">
+                          <a class="btn btn-xl btn-primary" href="/static/files/Resume-Preston.pdf" download>
+                          <i class="fas fa-download mr-2"></i>
+                          Download Resume
+                          </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                      <div class="col-md-4 border p-3">
+                        <h6 class="ml-5 mt-4"><strong><h3>My Skills</h3></strong></h6>
+                        <ul>
+                          <li class="python"><img class="pyicon ml-1" src="{% static 'images/py.png' %}" alt="" width="40%"><strong>Python</strong></li> <br>
+                          <li class="ftext"><img class="flask ml-1" src="{% static 'images/flasklogo1.png' %}" alt="" width="40%"><strong>Flask</strong></li> <br>
+                          <li class="django"><img class="djangoicon ml-1" src="{% static 'images/django1.jpg' %}" alt="" width="45%"><strong>Django</strong></li> <br>
+                          <li class="js"><img class="jsicon ml-1" src="{% static 'images/jjs.png' %}" alt="" width="42%"><strong>Javascript</strong></li><br>
+                          <li class="bootstrap"><img class="booticon ml-1" src="{% static 'images/boot1.png' %}" alt="" width="40%"><strong>Bootstrap</strong></li> <br>
+                          <li class="css"><img class="cssicon ml-1" src="{% static 'images/css1.jpg' %}" alt="" width="40%"><strong>CSS3</strong></li> <br>
+                          <li class="html"><img class="htmlicon ml-1" src="{% static 'images/html.png' %}" alt="" width="40%"><strong>HTML5</strong></li> <br>
+                          <li class="angular"><img class="angularicon ml-1" src="{% static 'images/angular1.png' %}" alt="" width="40%"><strong>Angular</strong></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+{% endblock %}
+      <!--end of about section-->
+
