@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block content %}
+{{block.super}}
+		<div class="landing-text">
+            <div class="container">
+              <div class="">
+                <div class="col-md-12 text-center">
+                <br>
+                  <h2 class="font-weight-bold">Hello, I'm Preston Too</h2>
+                  <h2 class="font-weight-bold" style="color: red;">Fullstack Software Developer</h5>
+                  <div>
+                    <a target="_blank" href="{% url 'portfolio'%}" class="btn btn-info">Check My Work</a>
+                    </div>
+						<img id="profilepic" class="responsive" src="{% static 'images/press.jpg' %}">
+				     <div class="mouse-click"></div>
+             <br>
+    <a href="{%url 'about' %}"><img src="static/images/mouse-click.png" id="mouse-click"></a>
+    </div>
+              </div>
+ 
+              </div>
+  </div>
+{% endblock %}
